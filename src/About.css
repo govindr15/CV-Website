@@ -1,0 +1,67 @@
+.vl {
+  border-left: 0.5vw solid #00ffbb;
+  height: 35vh;
+  margin-left: 1vh;
+}
+.about {
+  background-color: rgb(32, 32, 32);
+  padding-bottom: 20vh;
+}
+.about__me {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.experience1,
+.experience2,
+.experience3 {
+  display: flex;
+}
+
+.section__circle {
+  color: #00ffbb;
+}
+
+.about__exp__desc {
+  width: 20vw;
+}
+
+.about__exp__title {
+  font-size: 3vh;
+  font-family: "Bebas Neue", cursive;
+  color: #00feca;
+}
+
+.about__exp__project {
+  font-size: 2.5vh;
+  font-family: "Bebas Neue", cursive;
+  color: #fdf200;
+}
+
+.about__exp__timeline {
+  font-size: 2vh;
+  color: #a5d8f3;
+  font-family: "Bebas Neue", cursive;
+}
+
+.about__exp__desc {
+  font-size: 2vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.about__title {
+  font-size: 10vh;
+  width: 15vw;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  border-bottom: 2vh solid #00ffbb;
+}
+
+.about__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: #00ffbb;
+}

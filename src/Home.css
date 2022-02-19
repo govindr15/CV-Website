@@ -1,0 +1,99 @@
+.home {
+  background-color: #212121;
+  height: 100vh;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: column;
+  position: relative;
+}
+.home__content {
+  display: none;
+}
+.home__landing {
+  height: 100vh;
+  background-color: #00ffbb;
+  display: flex;
+  padding-top: 30vh;
+  justify-content: center;
+  font-size: 20vh;
+  font-family: "Bebas Neue", cursive;
+}
+
+.home__title,
+.home__title_n {
+  padding-top: 10vh;
+}
+.home__title1,
+.home__title2 {
+  font-size: 20vh;
+  display: flex;
+  font-family: "Bebas Neue", cursive;
+  color: #00ffbb;
+  justify-content: center;
+}
+
+.home__description {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 10vh;
+  color: white;
+}
+
+.home__scroll {
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
+}
+.home__scroll__text {
+  color: #00ffbb;
+  display: flex;
+  justify-content: center;
+}
+
+.home__scroll__icon {
+  color: #00ffbb;
+}
+
+.home__scroll__icon__box {
+  display: flex;
+  justify-content: center;
+}
+
+.home__toggleHome {
+  display: none;
+  justify-content: center;
+}
+.home__toggle__i1 {
+  color: #00ffbb;
+}
+
+.home__toggle__i2,
+.home__toggle__i3 {
+  color: white;
+}
+
+.home__description_n {
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 10vh;
+  color: white;
+}
+
+.home__content_n {
+  display: none;
+}
+
+.header__options {
+  display: none;
+  justify-content: space-evenly;
+  min-width: 60%;
+  padding-top: 5vh;
+  padding-right: 10vh;
+  color: white;
+  font-size: 3vh;
+  font-family: "Bebas Neue", cursive;
+  position: absolute;
+  right: 0;
+}
+

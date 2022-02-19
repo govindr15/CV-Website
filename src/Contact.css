@@ -1,0 +1,106 @@
+.contact {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+
+.contact__title {
+  font-size: 10vh;
+  width: 15vw;
+  font-family: "Bebas Neue", cursive;
+  color: #212121;
+  border-bottom: 2vh solid #00ffbb;
+}
+
+.contact__form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 50vh;
+  width: 90vh;
+  padding: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: max-content;
+  height: max-content;
+}
+
+.contact__section1,
+.contact__section2 {
+  display: flex;
+}
+
+#contact__btn {
+  display: flex;
+  height: 10vh;
+  width: 15vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 214, 214);
+  border-radius: 5vh;
+  color: white;
+  border: transparent;
+}
+
+.contact__btn__box {
+  display: flex;
+  justify-content: right;
+  padding-right: 10vh;
+}
+.contact__main {
+  display: flex;
+  justify-content: center;
+}
+
+#contact__name,
+#contact__email,
+#contact__message {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid #00ffbb;
+}
+
+.contact__name__box,
+.contact__email__box,
+.contact__message__box {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#contact__name,
+#contact__email {
+  width: 40vh;
+  height: 5vh;
+  margin-right: 10vh;
+}
+
+#contact__message {
+  width: 60vh;
+  height: 20vh;
+}
+
+.contact__label__name,
+.contact__label__email,
+.contact__label__message {
+  color: #00ffbb;
+  font-size: 3vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  position: absolute;
+}
+
+.contact__desc {
+  font-size: 5vh;
+  font-family: "Bebas Neue", cursive;
+  color: #212121;
+  font-weight: bold;
+}
+
+.contact__section2 {
+  padding-top: 5vh;
+}

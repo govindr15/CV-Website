@@ -1,0 +1,93 @@
+.projects {
+  padding-bottom: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.projects__sections {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__hanger {
+  height: 25vh;
+  width: 65vh;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+  color: rgb(66, 66, 66);
+  margin-bottom: 20vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.project__title {
+  font-size: 10vh;
+  width: 15vw;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(66, 66, 66);
+  border-bottom: 2vh solid #00ffbb;
+}
+
+.projects__img {
+  height: 30vh;
+  width: 25vw;
+  z-index: 0;
+  object-fit: contain;
+}
+.projects__img:hover {
+  position: relative;
+  bottom: 10vh;
+}
+
+.projects__img__box {
+  padding-top: 10vh;
+  position: absolute;
+  bottom: 1vh;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+  mask-position: 1000px center;
+}
+
+.project__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: blue;
+  font-weight: bold;
+}
+
+.project2__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: #00ffbb;
+  font-weight: bold;
+}
+.project3__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: #ff9472;
+  font-weight: bold;
+}
+.project4__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: #ffd300;
+  font-weight: bold;
+}
+.project5__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: #ff1493;
+  font-weight: bold;
+}
+.project6__experience__title {
+  font-size: 8vh;
+  font-family: "Bebas Neue", cursive;
+  color: violet;
+  font-weight: bold;
+}

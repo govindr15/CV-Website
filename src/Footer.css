@@ -1,0 +1,20 @@
+.footer {
+  height: 80vh;
+  background: linear-gradient(160deg, white 60%, #00ffbb 60%);
+}
+
+.footer__social {
+  display: flex;
+  padding-top: 30vh;
+  padding-left: 50vh;
+}
+
+.linkedInImg,
+.githubImg {
+  margin-right: 5vh;
+}
+
+.linkedInImg:hover,
+.githubImg:hover {
+  transform: scale(120%) rotate(30deg);
+}
